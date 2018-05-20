@@ -1,0 +1,55 @@
+body, html{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.bg h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.bg {
+	/* The image used */
+	background-image: url(background.jpg);
+
+	/* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.bg .container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#signup-button {
+	background-color: rgba(255, 145, 37);
+	border: 0px solid white;
+	border-radius: 150px;
+	padding: 18px;
+	margin-top: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+#signup-button:hover {
+	background-color: #FFA247;
+}
+
+#signup-button:active {
+	background-color: #AA7139;
+}
+
+button:focus {
+	outline: none;
+}
